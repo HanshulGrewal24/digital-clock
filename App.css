@@ -1,0 +1,32 @@
+
+.clock-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  background-color: rgb(229, 217, 217);
+  color: #ecf0f1; 
+  font-family: 'Arial', sans-serif; 
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  color: #e74c3c;
+  text-align: center; 
+}
+
+.clock {
+  font-size: 5rem; 
+  color: #2c3e50;
+  border: 3px solid #e74c3c; 
+  padding: 20px 40px; 
+  border-radius: 15px; 
+  background: rgba(46, 204, 113, 0.1); 
+  transition: background 0.3s ease; 
+}
+
+.clock:hover {
+  background: rgba(46, 204, 113, 0.3); 
+}
